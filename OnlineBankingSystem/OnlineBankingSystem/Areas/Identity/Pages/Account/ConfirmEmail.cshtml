@@ -1,0 +1,43 @@
+﻿@page
+@model ConfirmEmailModel
+@{
+    ViewData["Title"] = "Confirm email";
+    Layout = "~/Views/Shared/_WebsitePages.cshtml";
+}
+
+
+<style>
+    /*#fd7e14*/
+    .registration {
+        margin-top: 100px;
+        padding: 10px;
+        background-color: white;
+        border-radius: 10px;
+    }
+
+    .registration_heading {
+        padding: 10px;
+        background-color: #eeeeee;
+        border-radius: 10px;
+    }
+</style>
+
+<div class="container">
+
+    <div class="row d-flex justify-content-center align-items-center">
+
+        <div class="col-md-12 registration">
+            <partial name="_StatusMessage" model="Model.StatusMessage" />
+            <p class="registration_heading" style="text-align:center; font-size:40px;">
+
+                Welcome to <span class="text-primary">iBanker</span>
+            </p>
+
+            <button class="btn btn-primary"><a href="@Url.Page("/Account/Login")" class="text-white">Please Click Here to Login.</a></button>
+           
+           
+        </div>
+
+    </div>
+
+</div>

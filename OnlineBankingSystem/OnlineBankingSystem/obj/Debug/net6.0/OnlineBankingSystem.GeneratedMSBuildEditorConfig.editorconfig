@@ -1,0 +1,177 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = OnlineBankingSystem
+build_property.RootNamespace = OnlineBankingSystem
+build_property.ProjectDir = C:\Users\muhammad hammad\source\repos\OnlineBankingSystem\OnlineBankingSystem\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\muhammad hammad\source\repos\OnlineBankingSystem\OnlineBankingSystem
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/muhammad hammad/source/repos/OnlineBankingSystem/OnlineBankingSystem/Areas/Identity/Pages/Account/ConfirmEmail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxDb25maXJtRW1haWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/muhammad hammad/source/repos/OnlineBankingSystem/OnlineBankingSystem/Areas/Identity/Pages/Account/Lockout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2Nrb3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/muhammad hammad/source/repos/OnlineBankingSystem/OnlineBankingSystem/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/muhammad hammad/source/repos/OnlineBankingSystem/OnlineBankingSystem/Areas/Identity/Pages/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/muhammad hammad/source/repos/OnlineBankingSystem/OnlineBankingSystem/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcQ2hhbmdlUGFzc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/muhammad hammad/source/repos/OnlineBankingSystem/OnlineBankingSystem/Areas/Identity/Pages/Account/Manage/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/muhammad hammad/source/repos/OnlineBankingSystem/OnlineBankingSystem/Areas/Identity/Pages/Account/Manage/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/muhammad hammad/source/repos/OnlineBankingSystem/OnlineBankingSystem/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX01hbmFnZU5hdi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/muhammad hammad/source/repos/OnlineBankingSystem/OnlineBankingSystem/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/muhammad hammad/source/repos/OnlineBankingSystem/OnlineBankingSystem/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/muhammad hammad/source/repos/OnlineBankingSystem/OnlineBankingSystem/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3RlckNvbmZpcm1hdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/muhammad hammad/source/repos/OnlineBankingSystem/OnlineBankingSystem/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/muhammad hammad/source/repos/OnlineBankingSystem/OnlineBankingSystem/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/muhammad hammad/source/repos/OnlineBankingSystem/OnlineBankingSystem/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/muhammad hammad/source/repos/OnlineBankingSystem/OnlineBankingSystem/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/muhammad hammad/source/repos/OnlineBankingSystem/OnlineBankingSystem/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/muhammad hammad/source/repos/OnlineBankingSystem/OnlineBankingSystem/Pages/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/muhammad hammad/source/repos/OnlineBankingSystem/OnlineBankingSystem/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/muhammad hammad/source/repos/OnlineBankingSystem/OnlineBankingSystem/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/muhammad hammad/source/repos/OnlineBankingSystem/OnlineBankingSystem/Views/Admin/EditAccountNumber.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdEFjY291bnROdW1iZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/muhammad hammad/source/repos/OnlineBankingSystem/OnlineBankingSystem/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/muhammad hammad/source/repos/OnlineBankingSystem/OnlineBankingSystem/Views/Admin/ShowChequeBook.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU2hvd0NoZXF1ZUJvb2suY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/muhammad hammad/source/repos/OnlineBankingSystem/OnlineBankingSystem/Views/Admin/ShowRegisteredAccount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU2hvd1JlZ2lzdGVyZWRBY2NvdW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/muhammad hammad/source/repos/OnlineBankingSystem/OnlineBankingSystem/Views/Admin/ShowTransactionData.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU2hvd1RyYW5zYWN0aW9uRGF0YS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/muhammad hammad/source/repos/OnlineBankingSystem/OnlineBankingSystem/Views/Banking/AboutUs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFua2luZ1xBYm91dFVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/muhammad hammad/source/repos/OnlineBankingSystem/OnlineBankingSystem/Views/Banking/AccountDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFua2luZ1xBY2NvdW50RGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/muhammad hammad/source/repos/OnlineBankingSystem/OnlineBankingSystem/Views/Banking/ApplyingChequeBook.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFua2luZ1xBcHBseWluZ0NoZXF1ZUJvb2suY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/muhammad hammad/source/repos/OnlineBankingSystem/OnlineBankingSystem/Views/Banking/CreateBankAccount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFua2luZ1xDcmVhdGVCYW5rQWNjb3VudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/muhammad hammad/source/repos/OnlineBankingSystem/OnlineBankingSystem/Views/Banking/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFua2luZ1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/muhammad hammad/source/repos/OnlineBankingSystem/OnlineBankingSystem/Views/Banking/OurServices.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFua2luZ1xPdXJTZXJ2aWNlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/muhammad hammad/source/repos/OnlineBankingSystem/OnlineBankingSystem/Views/Banking/TransferMoney.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFua2luZ1xUcmFuc2Zlck1vbmV5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/muhammad hammad/source/repos/OnlineBankingSystem/OnlineBankingSystem/Views/Banking/UserDashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFua2luZ1xVc2VyRGFzaGJvYXJkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/muhammad hammad/source/repos/OnlineBankingSystem/OnlineBankingSystem/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/muhammad hammad/source/repos/OnlineBankingSystem/OnlineBankingSystem/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/muhammad hammad/source/repos/OnlineBankingSystem/OnlineBankingSystem/Views/Shared/_UserDashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Vc2VyRGFzaGJvYXJkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/muhammad hammad/source/repos/OnlineBankingSystem/OnlineBankingSystem/Views/Shared/_WebsiteLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9XZWJzaXRlTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/muhammad hammad/source/repos/OnlineBankingSystem/OnlineBankingSystem/Views/Shared/_WebsitePages.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9XZWJzaXRlUGFnZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/muhammad hammad/source/repos/OnlineBankingSystem/OnlineBankingSystem/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/muhammad hammad/source/repos/OnlineBankingSystem/OnlineBankingSystem/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/muhammad hammad/source/repos/OnlineBankingSystem/OnlineBankingSystem/Views/Shared/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-5eo7pumz6w

@@ -1,0 +1,38 @@
+﻿@model OnlineBankingSystem.Models.ChequeBook
+@{
+    ViewData["Title"] = "ApplyingChequeBook";
+    Layout = "~/Views/Shared/_UserDashboard.cshtml";
+}
+
+<div class="row d-flex justify-content-center align-items-center mt-2">
+    <div class="col-md-12 my-3">
+        <div class="text-center rounded p-2 bg-white shadow">
+            <p class="h4">Form For Apply Cheque Book</p>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        
+            <form asp-action="ApplyingChequeBook" method="post">
+            <div class="form-group mb-2">
+                <label class="form-label" asp-for="AccountNumber">Your Account Number</label>
+                <input class="form-control" asp-for="AccountNumber"  type="text" />
+                <span class="text-danger mt-2" asp-validation-for="AccountNumber"></span>
+            </div>
+            <div class="form-group mb-2">
+                <label class="form-label" asp-for="AppliedChequeBookDate">Enter Date</label>
+                <input class="form-control" asp-for="AppliedChequeBookDate" type="date" />
+                <span class="text-danger mt-2" asp-validation-for="AppliedChequeBookDate"></span>
+            </div>
+            <div class="form-group mb-2">
+                <button type="submit" class="btn btn-primary mt-2">Apply</button>
+            </div>
+            </form>
+            <div class="message">
+                <p><span class="text-danger bg-white p-1">Note :</span>You can collect Your Cheque Book after two or three days from nearest branch of <span style="color:#fd7e14;">i</span>Banker</p>
+            </div>    
+        
+    </div>
+</div>
+

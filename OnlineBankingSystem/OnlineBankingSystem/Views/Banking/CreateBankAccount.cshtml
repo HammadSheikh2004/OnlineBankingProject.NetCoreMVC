@@ -1,0 +1,138 @@
+﻿@model OnlineBankingSystem.Models.BankAccount;
+@{
+    ViewData["Title"] = "CreateBankAccount";
+    Layout = "~/Views/Shared/_UserDashboard.cshtml";
+}
+
+<style>
+    .select_item {
+        background-color: lightblue;
+    }
+    .select_item option {
+        background-color: white;
+    }
+
+</style>
+<div class="container">
+    <div class="row mt-4">
+        <div class="col-md-12">
+            <section class="h-100">
+                <div class="container py-5 h-100">
+                    <div class="row d-flex justify-content-center align-items-center h-100">
+                        <div class="col">
+                            <div class="card card-registration my-4">
+
+                                <div class="row g-0">
+                                    <div class="col-xl-12">
+                                        <div class="card-body p-md-5 text-black">
+                                            <h3 class="mb-5 text-uppercase text-center">Bank Account Registration Form</h3>
+
+                                            <form asp-action="CreateBankAccount" method="post">
+                                                <div class="row">
+                                                    <div class="col-md-6 mb-4">
+                                                        <div class="form-outline">
+                                                            <label asp-for="Account_User_Name" class="form-label" for="form3Example1m">Name</label>
+                                                            <input asp-for="Account_User_Name" value="@ViewBag.Name" type="text" id="form3Example1m" class="form-control form-control-lg" />
+                                                            <span class="text-danger my-2" asp-validation-for="Account_User_Name"></span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6 mb-4">
+                                                        <div class="form-outline">
+                                                            <label asp-for="Account_User_Email" class="form-label" for="form3Example97">Email ID</label>
+                                                            <input asp-for="Account_User_Email" value="@ViewBag.Email" type="text" id="form3Example97" class="form-control form-control-lg" />
+                                                            <span class="text-danger my-2" asp-validation-for="Account_User_Email"></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+
+                                                <div class="form-outline mb-4">
+                                                    <label class="form-label" asp-for="Account_User_Address" for="form3Example8">Address</label>
+                                                    <input type="text" asp-for="Account_User_Address" id="form3Example8" class="form-control form-control-lg" />
+                                                    <span class="text-danger my-2" asp-validation-for="Account_User_Address"></span>
+                                                </div>
+
+                                                <div class="form-outline mb-4">
+                                                    <label class="form-label" asp-for="Account_User_Phone_Number" for="form3Example8">Phone Number</label>
+                                                    <input type="number" asp-for="Account_User_Phone_Number" id="form3Example8" class="form-control form-control-lg" />
+                                                    <span class="text-danger my-2" asp-validation-for="Account_User_Phone_Number"></span>
+                                                </div>
+
+                                                <div class="form-outline mb-4">
+                                                    <label class="form-label" asp-for="Account_User_Country" for="form3Example8">Country</label>
+                                                    <input type="text" asp-for="Account_User_Country" id="form3ExampleCountry" class="form-control form-control-lg" />
+                                                    <span class="text-danger my-2" asp-validation-for="Account_User_Country"></span>
+                                                </div>
+
+                                                <div class="form-outline mb-4">
+                                                    <label class="form-label" asp-for="Account_User_City" for="form3Example8">City</label>
+                                                    <input type="text" asp-for="Account_User_City" id="form3ExampleCity" class="form-control form-control-lg" />
+                                                    <span class="text-danger my-2" asp-validation-for="Account_User_City"></span>
+                                                </div>
+
+                                                <div class="form-outline mb-4">
+                                                    <label class="form-label" asp-for="User_Nationality" for="form3Example8">Nationality</label>
+                                                    <input type="text" asp-for="User_Nationality" id="form3Example8" class="form-control form-control-lg" />
+                                                    <span class="text-danger my-2" asp-validation-for="User_Nationality"></span>
+                                                </div>
+
+                                                <div class="row">
+                                                    <div class="col-md-12 mb-4">
+
+                                                        <h6 class="mb-2">Please specify the type of account you want to open.</h6>
+                                                        <select class="select w-100 rounded p-2 select_item" asp-for="Account_Name">
+                                                            <option value="1">*Please Select*</option>
+                                                            <option asp-for="Account_Name">Saving Account</option>
+                                                            <option asp-for="Account_Name">Checking Account</option>
+                                                            <option asp-for="Account_Name">Personal Account</option>
+                                                            <option asp-for="Account_Name">Business Account</option>
+                                                            <option asp-for="Account_Name">Student Account</option>
+                                                        </select>
+
+                                                    </div>
+                                                </div>
+
+                                                <div class="row">
+                                                    <div class="col-md-12 mb-4">
+
+                                                        <h6 class="mb-2">Please select nearest iBanker Location.</h6>
+                                                        <select class="select w-100 rounded p-2 select_item" asp-for="BankLocation">
+                                                            <option value="1">*Please Select*</option>
+                                                            <option asp-for="BankLocation">Near Airport, Malir</option>
+                                                            <option asp-for="BankLocation">Bharia Town</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+
+                                                <div class="form-outline mb-4">
+                                                    <label class="form-label" asp-for="Account_Creation_Date" for="form3Example8">Enter Date</label>
+                                                    <input type="date" asp-for="Account_Creation_Date" id="form3ExampleCNIC" class="form-control form-control-lg" />
+                                                    <span class="text-danger my-2" asp-validation-for="Account_Creation_Date"></span>
+                                                </div>
+
+                                                <div class="form-outline mb-4">
+                                                    <label class="form-label" asp-for="User_CNIC" for="form3Example8">CNIC Number</label>
+                                                    <input type="text" asp-for="User_CNIC" id="form3ExampleCNIC" size="15" maxlength="15" placeholder="12345-6789012-1" class="form-control form-control-lg" />
+                                                    <span class="text-danger my-2" asp-validation-for="User_CNIC"></span>
+                                                </div>
+
+                                                <div class="form-outline mb-4">
+                                                    <input type="hidden" asp-for="Account_Number" readonly value="03XXXXXXXXX" id="form3Example8" size="11" maxlength="11" class="form-control form-control-lg" />
+                                                </div>
+                                                <input asp-for="status" type="hidden" value="Pending" />
+
+                                                <div class="d-flex justify-content-end pt-3">
+                                                    <button type="submit" class="btn btn-lg ms-2" style="background-color: #fd7e14; color: white;">Submit form</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</div>

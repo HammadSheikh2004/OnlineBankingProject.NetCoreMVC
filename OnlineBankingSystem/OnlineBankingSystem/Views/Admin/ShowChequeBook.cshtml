@@ -1,0 +1,30 @@
+﻿@model IEnumerable<ChequeBook>
+@{
+    ViewData["Title"] = "ShowChequeBook";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Id</th>
+                    <th scope="col">Account Number</th>
+                    <th scope="col">Date</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var chequeBookData in Model)
+                {
+                    <tr>
+                        <th>@chequeBookData.ChequeBook_Id</th>
+                        <td>@chequeBookData.AccountNumber</td>
+                        <td>@chequeBookData.AppliedChequeBookDate</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+

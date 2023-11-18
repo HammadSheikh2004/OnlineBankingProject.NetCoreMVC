@@ -1,0 +1,55 @@
+﻿@page
+@model RegisterConfirmationModel
+@{
+    ViewData["Title"] = "Register confirmation";
+    Layout = "~/Views/Shared/_WebsitePages.cshtml";
+}
+<style>
+    /*#fd7e14*/
+    .registration{
+        margin-top: 100px;
+        padding: 10px;
+        background-color: white;
+        border-radius: 10px;
+    }
+
+    .registration_heading {
+        padding: 10px;
+        background-color: #eeeeee;
+        border-radius: 10px;
+    }
+</style>
+
+<div class="container">
+
+    <div class="row d-flex justify-content-center align-items-center">
+        
+        <div class="col-md-12 registration">
+            <p class="registration_heading" style="text-align:center; font-size:40px;">
+
+                Welcome to <span class="text-primary">iBanker</span>
+            </p>
+
+            @{
+                if (@Model.DisplayConfirmAccountLink)
+                {
+                    <p class="registration_para" style="font-size:20px;">
+                        
+                        Please Confirm your Account <a id="confirm-link" href="@Model.EmailConfirmationUrl">Click Here.</a>
+                    </p>
+                }
+                else
+                {
+                    <p>
+                        Please check your email to confirm your account.
+                    </p>
+                }
+            }
+        </div>
+        
+    </div>
+
+</div>
+
+
+

@@ -1,0 +1,70 @@
+﻿@model OnlineBankingSystem.Models.BankAccount
+
+@{
+    ViewData["Title"] = "TransferMoney";
+    Layout = "~/Views/Shared/_UserDashboard.cshtml";
+}
+
+<div class="row d-flex justify-content-center align-items-center mt-2">
+    <div class="col-md-12 my-3">
+        <div class="text-center rounded p-2 bg-white shadow">
+            <p class="h4">Form For Transfer Amount</p>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        @if (Model == null)
+        {
+            <form asp-action="TransferMoney" method="get">
+                <div class="form-group mb-2">
+                    <label class="form-label">Enter Account Number</label>
+                    <input class="form-control" asp-for="Account_Number" name="AccountNumber" />
+                </div>
+                <button type="submit" class="btn btn-primary mt-2">Enter</button>
+            </form>
+        }
+        else
+        {
+            <p>User data</p>
+            <p><strong>Account Number:</strong> @Model.Account_Number</p>
+            <p><strong>Name:</strong> @Model.Account_User_Name</p>
+            <p><strong>Bank Location:</strong> @Model.BankLocation</p>
+
+            <div class="row mt-4">
+                <div class="col-md-12">
+                    <section class="h-100">
+                        <div class="container py-5 h-100">
+                            <div class="row d-flex justify-content-center align-items-center h-100">
+                                <div class="col">
+                                    <div class="card card-registration my-4">
+                                        <div class="row g-0">
+                                            <div class="col-xl-12">
+                                                <div class="card-body p-md-5 text-black">
+                                                    <h3 class="mb-5 text-uppercase text-center">Money Transfer Form</h3>
+
+                                                    <form asp-action="TransferMoney" method="post">
+                                                        <label for="fromAccountId">From Account:</label>
+                                                        <input type="text" name="FromAccountId" class="form-control form-control-lg" required />
+
+                                                        <label for "toAccountId">To Account:</label>
+                                                        <input type="text" name="ToAccountId" value="@Model.Account_Number" class="form-control form-control-lg" required />
+
+                                                        <label for="amount">Amount:</label>
+                                                        <input type="number" step="0.01" name="amount" class="form-control form-control-lg" required />
+
+                                                        <button type="submit" class="btn btn-primary mt-2">Transfer</button>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        }
+    </div>
+</div>

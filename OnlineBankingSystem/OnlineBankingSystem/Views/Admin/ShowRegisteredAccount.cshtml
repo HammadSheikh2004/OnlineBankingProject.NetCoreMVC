@@ -1,0 +1,50 @@
+﻿@model IEnumerable<BankAccount>
+@{
+    ViewData["Title"] = "ShowRegisteredAccount";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Id</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Address</th>
+                    <th scope="col">Country</th>
+                    <th scope="col">City</th>
+                    <th scope="col">Phone Number</th>
+                    <th scope="col">Nationality</th>
+                    <th scope="col">CNIC Number</th>
+                    <th scope="col">Account Name</th>
+                    <th scope="col">Account Number</th>
+                    <th scope="col">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var userinfo in Model)
+                {
+                    <tr>
+                        <th scope="row">@userinfo.Account_User_Id</th>
+                        <td>@userinfo.Account_User_Name</td>
+                        <td>@userinfo.Account_User_Email</td>
+                        <td>@userinfo.Account_User_Address</td>
+                        <td>@userinfo.Account_User_Country</td>
+                        <td>@userinfo.Account_User_City</td>
+                        <td>@userinfo.Account_User_Phone_Number</td>
+                        <td>@userinfo.User_Nationality</td>
+                        <td>@userinfo.User_CNIC</td>
+                        <td>@userinfo.Account_Name</td>
+                        <td>@userinfo.Account_Number</td>
+                        <td>
+                            <a asp-action="EditAccountNumber" asp-route-Id="@userinfo.Account_User_Id" class="badge bg-primary text-decoration-none text-white">Edit Data</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
